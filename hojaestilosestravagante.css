@@ -8,16 +8,19 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
-
-nav {
+/* menu*/
+#nav {
+  clear: both;
+  float: center;
     background-color: hsla(0, 0%, 100%, 0);
     color: #010101;
     text-align: center;
-    padding: 25px;
-    font-size: 200%;
+    padding: 8px;
+    font-size: 100%;
     text-decoration-line: underline;
     text-decoration-color: #4d5bfe;
   }
+
   .ulnav{
     list-style: none;
     margin: 0;
@@ -26,7 +29,7 @@ nav {
   }
   
   .linav {
-    display: inline-block;
+    display:inline-block;
     margin: 0 10px;
   }
   
@@ -38,6 +41,7 @@ nav {
     text-decoration: none;
     padding: 0 10px;
   }
+  /* formulario */
 form {
     background-color: #00a5ff;
   border: 5px solid #000;
@@ -47,7 +51,7 @@ form {
   text-align: center;
   box-shadow: 50 50 50px rgba(7, 121, 244, 0.519);
 }
-
+/* textos especiales*/
 .textoizquierda {
     text-align: left;
 }
@@ -63,14 +67,55 @@ form {
 .textosubrayado {
     text-transform: lowercase;
 }
-  
+ 
+/* listados*/
   dt {
     color: #0400ff; 
     font-size: 16px;
 }
+/* titulos*/
 h2,h3 {
     color: #ff0000;
     text-align: center;
     text-transform: capitalize;
     text-decoration-line: underline;
 }
+/* cajas *//* PABLO del futuro te falta poner las cajas y dejarlas ordenadas pag 50 y 70 posicionamiento caja usar float y clear para que no afecte */
+
+.cajaseccionweb {
+  Border: 5px ;
+  border-style: double;
+  border-color:#0b00d9e7;
+  background-color:#80a3cb;
+  padding: 10px;
+  margin: 10px 0;
+  float: left;
+}
+.cajaseccionweb {
+  Border: 5px ;
+  border-style: double;
+  border-color:#0b00d9e7;
+  background-color:#80a3cb;
+  padding: 10px;
+  margin: 10px 0;
+  float: left;
+}
+
+#cajagif1 {
+  Border: 5px ;
+  border-style: double;
+  border-color:#0b00d9e7;
+  background-color:#00000000;
+  padding: 10px;
+  margin: 10px 0;
+  float: center;
+}
+
+#cajapie {
+background-color: #09090900;
+border-bottom: #000;
+border-top: #000;
+float: left;
+clear: both;
+}
+
